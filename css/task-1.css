@@ -1,0 +1,82 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.list {
+  width: 440px;
+  height: 888px;
+  border: 2px solid FFFFFF;
+  padding: 10px;
+  display: inline-block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background-color: #f6f6fe;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.list-animals {
+  width: 360px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-animals {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.list-products {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 136px;
+}
+
+.list-technologies {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 232px;
+}
