@@ -12,8 +12,7 @@ function handleSubmit(event) {
       email: emailTrim,
       password: passwordTrim,
     };
-
+    event.currentTarget.reset();
     console.log(info);
   }
-  event.currentTarget.reset();
 }
